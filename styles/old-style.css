@@ -1,0 +1,114 @@
+body {
+    font-family: "Lato", sans-serif;
+    /*background-color: rgb(22, 22, 74)*/
+    background-color: rgb(32, 32, 75);
+    
+  }
+  
+  .sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #f1f1f1;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+   color: rgb(255, 64, 0);
+
+  }
+  
+
+
+
+
+  .main {
+    margin-left: 160px; /* Same as the width of the sidenav */
+    /* margin-right: 650px; */
+    font-size: 22px; /* Increased text to enable scrolling */
+    color: #f1f1f1;
+    padding: 0px 10px;
+    display: grid;
+  }
+  .main a:link {
+    color: rgb(255, 64, 0);
+  }
+  .main a:visited {
+    color: rgb(75, 181, 234);
+  }
+
+  .main img {
+    float: left;
+    margin: 5px;
+    width: 35%;
+    padding-right: 100px;
+  }
+
+
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+  .contact-container{
+    height: 100vh;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .contact-inputs{
+    width: 400px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding-left: 25px;
+    font-weight: 500;
+    color: #666;
+    border-radius: 50px;
+  }
+
+  .contact-container textarea{
+    height: 140px;
+    padding-top: 15px;
+    border-radius: 20px;
+    width: 500px;
+  }
+
+  .contact-container button{
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    font-size: 16px;
+    color: #fff;
+    gap: 10px;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(270deg, #784fff, #b51533);
+    cursor: pointer;
+  }
+
+footer{
+  margin-left: 150px; /* Same as the width of the sidenav */
+  background-color: rgb(208, 208, 228);
+  text-align: center;
+  padding: 40px;
+}
+
+.big-text{
+  font-size: 20px;
+}
