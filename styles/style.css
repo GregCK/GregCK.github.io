@@ -19,6 +19,10 @@
   }
 
 
+  .caption{
+    font-size: small;
+  }
+
 @media (max-width:767px) {
   .container-top{
     font-size:27px;
