@@ -11,6 +11,16 @@
     /*background-color: rgb(218, 220, 233);*/
     background-color: #21262E;
   }
+
+  table{
+    width: 100%;
+    
+  }
+
+  th, td{
+    padding: 15px;
+    text-align: left;
+  }
   
    /* unvisited link */
   a:link {
