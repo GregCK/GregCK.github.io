@@ -97,10 +97,13 @@
 
 
   .container img {
-    
-    
     width: fit-content;
-    
+  }
+
+  .link-table img {
+    width: fit-content;
+    max-width: 300px;
+  
   }
   
   .row:after {
@@ -139,13 +142,7 @@
     background-color: #04AA6D;
   }
   
-  /*
-  img {
-    display: block;
-    height: auto;
-    max-width: 100%;
-  }
-  */
+
 
   img {
     display: block;
